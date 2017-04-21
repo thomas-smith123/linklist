@@ -1,0 +1,29 @@
+﻿Build started 4/21/2017 10:30:37 PM.
+     1>Project "D:\bs\linklist\linklist3\linklist3\linklist3.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\linklist3.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         F:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt linklist2.cpp
+         linklist2.cpp
+     1>d:\bs\linklist\linklist3\linklist3\linklist2.cpp(26): warning C4101: “tail”: 未引用的局部变量
+     1>d:\bs\linklist\linklist3\linklist3\linklist2.cpp(26): warning C4101: “pnew”: 未引用的局部变量
+     1>d:\bs\linklist\linklist3\linklist3\linklist2.cpp(54): warning C4101: “tail”: 未引用的局部变量
+     1>d:\bs\linklist\linklist3\linklist3\linklist2.cpp(54): warning C4101: “pnew”: 未引用的局部变量
+     1>d:\bs\linklist\linklist3\linklist3\linklist2.cpp(85): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\bs\linklist\linklist3\linklist3\linklist2.cpp(85): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\bs\linklist\linklist3\linklist3\linklist2.cpp(100): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\bs\linklist\linklist3\linklist3\linklist2.cpp(100): warning C4305: “参数”: 从“double”到“float”截断
+       Link:
+         F:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\bs\linklist\linklist3\Debug\linklist3.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\linklist3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\bs\linklist\linklist3\Debug\linklist3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\bs\linklist\linklist3\Debug\linklist3.lib" /MACHINE:X86 Debug\linklist2.obj
+         LINK : 没有找到 D:\bs\linklist\linklist3\Debug\linklist3.exe 或上一个增量链接没有生成它；正在执行完全链接
+         linklist3.vcxproj -> D:\bs\linklist\linklist3\Debug\linklist3.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\bs\linklist\linklist3\Debug\linklist3.exe;#1" /manifest Debug\linklist3.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\linklist3.unsuccessfulbuild".
+         Touching "Debug\linklist3.lastbuildstate".
+     1>Done Building Project "D:\bs\linklist\linklist3\linklist3\linklist3.vcxproj" (build target(s)).
+
+生成成功。
+
+Time Elapsed 00:00:03.05
